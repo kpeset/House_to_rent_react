@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+  padding: 2rem;
+}
+
+h1 {
+  margin-bottom: 4rem;
+}
+
+.houses {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.filter {
+  background-color: aliceblue;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.filter > input {
+  flex: 1;
+  padding: 1rem;
+}
+
+article {
+  padding: 2rem;
+  background-color: aliceblue;
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+  min-height: 20rem;
+}
+
+article > img {
+  width: 50%;
+  object-fit: cover;
+}
